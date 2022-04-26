@@ -15,9 +15,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--blue-gray);
-}
-.container {
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template: auto 1fr / minmax(auto, 245px) 1fr;
 }
@@ -26,7 +24,6 @@ nav {
   color: white;
   grid-row: span 2;
 }
-
 .logo {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -230,7 +227,6 @@ main h2 {
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
-
 .trending-user {
   display: grid;
   grid-template-columns: auto 1fr;
